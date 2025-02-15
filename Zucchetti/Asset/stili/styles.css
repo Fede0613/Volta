@@ -1,0 +1,160 @@
+/* Generali */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../immagini/sfondo-ZVolta_resized.jpg");
+    background-size: 100vw;
+    /*background-color: #f4f4f9;*/
+    color: #333;
+}
+
+header {
+    background-color: #0078d7;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    
+    
+    /*nascondere header*/
+    display: none;
+    height: 0px;
+}
+
+
+
+main {
+    margin: 2rem auto;
+    margin-top: 2.5rem;
+    width: 100%;
+    max-width: 800px;
+    padding: 1rem;
+    /*background-color: #fff;*/
+    background-color: rgba(255,255,255,0.65);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #0078d7;
+    color: #fff;
+    bottom: 0px;
+    position: relative;
+    width: calc(100% - 2rem);
+    
+    
+    /*nascondere footer*/
+    display: none;
+    height: 0px;
+}
+
+/* Login Section */
+#login-section {
+    text-align: center;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem auto;
+    max-width: 400px;
+}
+
+#login-form label {
+    font-weight: bold;
+}
+
+#login-form input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+#captcha-container {
+    background-color: #e8e8e8;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: #555;
+    border-radius: 5px;
+}
+
+#login-form button {
+    background-color: #0078d7;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#login-form button:hover {
+    background-color: #005fa3;
+}
+
+#popup {
+      position: absolute;
+    left: auto;
+    vertical-align: middle;
+      background-color: #f44336;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+      font-size: 16px;
+      display: none;
+    }
+
+.toggle-password:not(#login-form) {
+      position: relative;
+    margin-top: -55px;
+    margin-left: 370px;
+      background: none;
+      border: none;
+      cursor: pointer;
+    width: 30px;
+
+    }
+.toggle-password:not(#login-form):hover {
+      background: none;
+    }
+    .toggle-password img {
+      width: 20px;
+      height: 20px;
+    }
+
+/* Dashboard */
+#dashboard {
+    text-align: left;
+}
+
+#dashboard h2 {
+    color: #0078d7;
+    text-align: center;
+}
+
+#asset-list, #reservations {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    background-color: #f9f9f9;
+}
+
+#asset-list div, #reservations div {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    background-color: #fff;
+}

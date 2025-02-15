@@ -1,0 +1,51 @@
+/* Generali */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #0078d7;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+
+    
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #0078d7;
+    color: #fff;
+    bottom: 0;
+    position: relative;
+    width: calc(100% - 2rem);
+}
+
+.td-asset{
+    width: 25%;
+    height: 300px;
+}
+
+.box-asset{
+    background-color: #EBEBEB;
+    width: 80%; 
+    height: 80%; 
+    /*border: solid 1px black;*/ 
+    border-radius: 20px;
+    box-shadow: 1px 1px 6px 0.4px #989898;
+}
+
+#send-button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1.5px 1.5px 6px 0.4px #989898;
+    cursor: pointer;
+}

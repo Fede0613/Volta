@@ -1,0 +1,51 @@
+/* Generali */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #0078d7;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #0078d7;
+    color: #fff;
+    bottom: 0px;
+    position: relative;
+    width: calc(100% - 2rem);
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.textmail {
+    min-height: 250px;
+    max-height: 250px;
+    min-width: 600px;
+    max-width: 600px;
+}
+
+#send-button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1.5px 1.5px 6px 0.4px #989898;
+    cursor: pointer;
+}

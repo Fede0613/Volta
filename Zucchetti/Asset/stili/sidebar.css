@@ -1,0 +1,84 @@
+/* Stile per il menu laterale */
+#hidden{
+    position: fixed;
+    top: 0;
+    left: -100vw;
+    width: 100vw;
+    height: 100%;
+    background: #222;
+    color: white;
+    transition: 0.3s;
+    padding-top: 20px;
+    z-index: 999;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 100%;
+    background: #222;
+    color: white;
+    transition: 0.3s;
+    overflow-y: scroll;
+    z-index: 9999;
+}
+
+.sidebar h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 15px;
+    text-align: center;
+}
+
+.sidebar ul li a {
+    padding: 15px 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebar ul li a:hover {
+    background: #444;
+}
+
+/* Pulsante per chiudere il menu */
+.close-btn {
+    position:static;
+    margin-top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Pulsante per aprire il menu */
+.menu-btn {
+    
+    background: transparent /*#333*/;
+    margin-left: 20px;
+    color: white;
+    border: none;
+    /*padding: 10px;*/
+    font-size: 35px;
+    cursor: pointer;
+    border-radius: 5px;
+    float: left;
+}
+
+.menu-btn:hover {
+    background: #1F6FAF /*#555*/;
+}
